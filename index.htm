@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+    crossorigin="anonymous">
+    <title>Sign In/Sign Up Page</title>
+</head>
+<body>
+    <div class="form-container">
+    
+        <div class="form-toggle">
+            <button id="login-toggle" onclick="toggleLogin()">Login</button>
+            <button id="signup-toggle" onclick="toggleSignup()">Sign Up</button>
+        </div>
+    
+        <div id="login-form">
+            <form>
+                <input type="text" placeholder="Enter your username or email"/>
+                <input type="password" placeholder="Enter your password"/>
+                <button type="button" class="btn login">Login</button>
+                <p><a href="#">Forgot your password?</a></p>
+               
+            </form>
+        </div>
+    
+        <div id="signup-form">
+            <form>
+                <input type="email" placeholder="Enter your email"/>
+                <input type="text" placeholder="Enter username"/>
+                <input type="password" placeholder="Create password">
+                <button type="button" class="btn signup">Create Account</button>
+                <p>Or sign up with</p>
+
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-google"></i>
+                
+            </form>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
