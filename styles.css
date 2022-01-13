@@ -22,7 +22,7 @@ body{
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
     border-bottom-right-radius: 20px;
-    box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.3)
+  
     
 }
 
@@ -79,17 +79,16 @@ body{
     transition: 0.2s;
     font-size: 1.2rem;
     font-weight: bold;
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
+    
 }
 
-.form-toggle button:nth-child(1){
+/* .form-toggle button:nth-child(1){
     border-bottom-right-radius: 20px;
 }
 
 .form-toggle button:nth-child(2){
     border-bottom-left-radius: 20px;
-}
+} */
 
 #login-toggle{
     background:#3671dd;
